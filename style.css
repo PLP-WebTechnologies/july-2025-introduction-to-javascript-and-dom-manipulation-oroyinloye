@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 30px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button.selected {
+    background-color: #007BFF;
+    color: white;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#loopResults {
+    margin-top: 30px;
+    font-family: monospace;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
